@@ -1,9 +1,12 @@
-.shop-div{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.shop-div {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
-.product-container{
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    gap: 45px;
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 45px;
+}
+.order-summary p > span {
+  margin-left: 5px;
 }
